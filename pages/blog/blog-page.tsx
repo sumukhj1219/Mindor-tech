@@ -29,22 +29,19 @@ const BlogPage = () => {
         />
       </Head>
 
-      <div className="w-full mx-auto py-16">
-        <div
-          className="w-full h-96 bg-cover bg-center gap-y-3 flex flex-col items-center justify-center"
-          style={{ backgroundImage: "url('/blog/bg.png')" }}
-        >
-          <h1 className="text-3xl md:text-4xl font-bold text-white text-center drop-shadow-lg">
-            Blogs
-          </h1>
-        <div className="mt-8">
+      <div className="relative w-full h-96 flex flex-col items-center justify-center">
+        <img
+          src="/blog/bg.png"
+          alt="Blog background"
+          className="absolute inset-0 w-full h-full object-cover object-bottom"
+        />
+        <h1 className="relative text-3xl mt-5 md:text-4xl font-bold text-white text-center drop-shadow-lg">
+          Blogs
+        </h1>
+        <div className="relative mt-8 px-5 md:px-0">
           <SearchBar onSearch={handleSearch} />
-        </div>
-
         <CategoryTabs categories={categories} onSelect={handleCategory} />
         </div>
-
-        
       </div>
     </>
   );

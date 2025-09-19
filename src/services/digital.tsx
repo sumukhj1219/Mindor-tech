@@ -12,7 +12,6 @@ import Footer from '@/components/Footer';
 const Digital: React.FC = () => {
   return (
     <div className='mt-7'>
-      <Navbar />
       <Landing variant='digital' />
       <Need/>
       <Home />
@@ -20,7 +19,6 @@ const Digital: React.FC = () => {
       <Process variant='digital' />
       <Chooseus />
       <FAQ variant='digital' />
-      <Footer/>
     </div>
   );
 };

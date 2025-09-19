@@ -14,7 +14,6 @@ import Tech4 from 'svgs/tech-stacks/tech4';
 const RPA: React.FC = () => {
   return (
     <div className='mt-7'>
-      <Navbar />
       <Landing variant="rpa" />
       <Mindor variant="rpa" />
       <AIDevelopmentSuccess variant="rpa" />
@@ -24,7 +23,6 @@ const RPA: React.FC = () => {
       <Process variant="rpa" />
       <Tech4 />
       <FAQ variant="rpa" />
-      <Footer />
     </div>
   )
 }

@@ -13,7 +13,6 @@ import Tech2 from 'svgs/tech-stacks/tech2'
 const App: React.FC = () => {
     return(
         <div className='mt-7'>
-            <Navbar/>
             <Landing variant='app'/>
             <Mindor variant='app'/>
             <AIDevelopmentSuccess variant='app'/>
@@ -22,7 +21,6 @@ const App: React.FC = () => {
             <Business variant='app'/>
             <Tech2 />
             <FAQ variant='app'/>
-            <Footer/>
         </div>
     )
 }

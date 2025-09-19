@@ -13,7 +13,6 @@ import Tech3 from 'svgs/tech-stacks/tech3';
 const AI: React.FC = () => {
     return (
         <div className='mt-7'>
-            <Navbar />
             <Landing variant="ai" />
             <AIDevelopmentSuccess />
             <Services />
@@ -22,7 +21,6 @@ const AI: React.FC = () => {
             <Process />
             <Tech3 />
             <FAQ variant="ai" />
-            <Footer />
         </div>
     );
 };

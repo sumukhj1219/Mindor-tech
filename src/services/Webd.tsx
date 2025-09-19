@@ -13,7 +13,6 @@ import Tech1 from 'svgs/tech-stacks/tech1';
 const Webd: React.FC = () => {
   return (
     <div className="mt-7">
-      <Navbar />
       <Landing />
       <Mindor variant="service" />
       <Services />
@@ -22,7 +21,6 @@ const Webd: React.FC = () => {
       <ChooseUs />
       <Tech1 />
       <FAQ />
-      <Footer />
     </div>
   );
 };

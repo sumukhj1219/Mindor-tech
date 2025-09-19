@@ -13,7 +13,6 @@ import Tech5 from 'svgs/tech-stacks/tech5';
 const Block: React.FC = () => {
   return (
     <div className='mt-7'>
-      <Navbar />
       <Landing variant="blockchain" />
       <Mindor variant="blockchain" />
       <Slider variant="blockchain" />
@@ -22,7 +21,6 @@ const Block: React.FC = () => {
       <Business variant="blockchain" />
       <Tech5 />
       <FAQ variant="blockchain" />
-      <Footer/>
     </div>
   );
 };
