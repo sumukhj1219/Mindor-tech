@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import dynamic from 'next/dynamic';
+import Whatsapp from '@/components/Whatsapp';
 
 const Hero = dynamic(() => import('../src/components/Hero'));
 const WhyMindor = dynamic(() => import('../src/components/WhyMindor'));
@@ -55,7 +56,7 @@ const HomePage: React.FC = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
-      <main className="flex-1">
+      <main className="flex-1 relative">
         {/* <Hero scrollToSection={scrollToSection} /> */}
         {/* <WhyMindor /> */}
         {/* <Contact setShowSuccessModal={setShowSuccessModal} /> */}
@@ -72,6 +73,7 @@ const HomePage: React.FC = () => {
         <Founder />
         <CTASection />
         <Footer />
+      <Whatsapp />
       </main>
     </div>
   );
