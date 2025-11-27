@@ -72,7 +72,7 @@ const HomePage: React.FC = () => {
         <Business />
         <Founder />
         <CTASection />
-        <Footer />
+
       <Whatsapp />
       </main>
     </div>
